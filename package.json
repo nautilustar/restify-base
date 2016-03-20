@@ -9,10 +9,10 @@
     "test": "NODE_ENV=test make test"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "app-module-path": "1.0.5",
-    "http-status-codes": "^1.0.6",
+    "http-status-codes": "1.0.6",
     "lodash": "4.6.1",
     "mongoose": "4.4.8",
     "ms": "0.7.1",
