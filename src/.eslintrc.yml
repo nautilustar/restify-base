@@ -1,0 +1,16 @@
+env:
+  es6: true
+  node: true
+  browser: false
+
+extends:
+  - eslint:recommended
+
+rules:
+  block-scoped-var: 2
+  indent: [2, 4, {SwitchCase: 1}]
+  linebreak-style: [2, "unix"]
+  quotes: [2, "double"]
+  semi: [2, "always"]
+  no-console: 0
+  comma-dangle: [2, "always-multiline"]

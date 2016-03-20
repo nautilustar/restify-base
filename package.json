@@ -1,0 +1,30 @@
+{
+  "name": "restify-base",
+  "version": "0.0.1",
+  "description": "App base with Restify",
+  "main": "src/index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "./run.sh",
+    "test": "NODE_ENV=test make test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "1.0.5",
+    "http-status-codes": "^1.0.6",
+    "lodash": "4.6.1",
+    "mongoose": "4.4.8",
+    "ms": "0.7.1",
+    "nautilustar-debug": "^0.1.0",
+    "restify": "4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "faker": "^3.0.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.8.1",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}

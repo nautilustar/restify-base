@@ -1,0 +1,11 @@
+globals:
+  jasmine:    false
+  runs:       false
+  waitsFor:   false
+  expect:     false
+  describe:   false
+  it:         false
+  before:     false
+  beforeEach: false
+  after:      false
+  afterEach:  false

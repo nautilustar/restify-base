@@ -1,0 +1,16 @@
+node_modules
+run.sh
+npm-debug.log
+.idea
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
