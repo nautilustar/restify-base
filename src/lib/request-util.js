@@ -13,6 +13,7 @@ module.exports = function (server, restify){
 
 function errorHandler (req, res, err, cb) {
     debug.stack.error(err);
+    res.send(err);
     return cb();
 }
 
