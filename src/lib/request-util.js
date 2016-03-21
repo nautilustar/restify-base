@@ -19,10 +19,10 @@ function errorHandler (req, res, err, cb) {
 
 function logAccess(req, resp) {
     req.reqNo = reqNo;
+    req.ip = req.ip || req.headers["x-forwarded-for"] || req.connection.remoteAddress;
     var reqName = util.format(
-          "#%s [%s] %s <= (%s && %s)", reqNo++, req.method, req.url,
-          req.ip || req.headers["x-forwarded-for"] || req.connection.remoteAddress,
-          req.userAgent()
+          "#%s [%s] %s <= (%s && %s)",
+          reqNo++, req.method, req.url, req.ip, req.userAgent()
         ),
         start = Date.now();
     debug.log(reqName);
