@@ -4,10 +4,10 @@
 module.exports = [
     {
         method: "get",
-        uri: "/",
+        uri: "*",
         handlers: [{
-            controller: "home",
-            callback: "ping",
+            controller: "static",
+            callback: "public",
         }],
     },
 ];
